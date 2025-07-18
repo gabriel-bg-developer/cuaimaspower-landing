@@ -2,6 +2,7 @@
 
 import { useTranslations } from '@/hooks/useTranslations';
 import { motion } from 'framer-motion';
+import { Plan } from '@/types';
 import { 
   Check, 
   Star, 
@@ -60,7 +61,7 @@ export default function Pricing() {
 
         {/* Planes Grid */}
         <div className="grid md:grid-cols-3 gap-8">
-          {plans.map((plan, index) => {
+          {plans.map((plan: Plan, index: number) => {
             const Icon = plan.icon;
             const planData = t(`pricing.${plan.id}`);
             
@@ -108,7 +109,7 @@ export default function Pricing() {
 
                 {/* Características */}
                 <ul className="space-y-4 mb-8">
-                  {planData.features.map((feature, featureIndex) => (
+                  {planData.features.map((feature: string, featureIndex: number) => (
                     <li key={featureIndex} className="flex items-start">
                       <Check className="w-5 h-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
                       <span className="text-gray-700">{feature}</span>

@@ -1,5 +1,5 @@
 import { notFound } from 'next/navigation';
-import { getDictionary, Dictionary } from '@/lib/dictionaries';
+import { getDictionary } from '@/lib/dictionaries';
 import DictionaryProvider from '@/components/DictionaryProvider';
 
 // Lista de idiomas soportados
@@ -18,7 +18,7 @@ export default async function LocaleLayout({
   const { locale } = await params;
   
   // Verificar que el idioma solicitado está soportado
-  if (!locales.includes(locale as any)) {
+  if (!locales.includes(locale)) {
     notFound();
   }
 

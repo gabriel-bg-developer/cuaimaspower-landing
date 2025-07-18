@@ -2,6 +2,7 @@
 
 import { useTranslations } from '@/hooks/useTranslations';
 import { motion } from 'framer-motion';
+import { Testimonial } from '@/types';
 import { Star, Quote } from 'lucide-react';
 
 // Componente de Testimonios
@@ -41,7 +42,7 @@ export default function Testimonials() {
 
         {/* Testimonios Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {t('testimonials.items').map((testimonial, index) => (
+          {t('testimonials.items').map((testimonial: Testimonial, index: number) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
@@ -65,7 +66,7 @@ export default function Testimonials() {
 
                 {/* Texto del testimonio */}
                 <blockquote className="text-gray-700 mb-6 leading-relaxed italic">
-                  "{testimonial.content}"
+                  &ldquo;{testimonial.content}&rdquo;
                 </blockquote>
 
                 {/* Información de la persona */}

@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslations } from '@/hooks/useTranslations';
-import { Menu, X, ChevronDown } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 import LanguageSelector from './LanguageSelector';
 
 // Componente de navegación principal

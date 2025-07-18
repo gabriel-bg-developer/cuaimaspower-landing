@@ -2,11 +2,10 @@
 
 import { useTranslations } from '@/hooks/useTranslations';
 import { motion } from 'framer-motion';
+import { Service } from '@/types';
 import { 
   Heart, 
-  Mail, 
   Globe, 
-  ShoppingCart, 
   Star, 
   ArrowRight,
   Check,
@@ -67,7 +66,7 @@ export default function Services() {
 
         {/* Servicios Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {services.map((service, index) => {
+          {services.map((service: Service, index: number) => {
             const Icon = service.icon;
             const serviceData = t(`services.${service.id}`);
             
@@ -106,7 +105,7 @@ export default function Services() {
 
                 {/* Características */}
                 <ul className="space-y-3 mb-8">
-                  {serviceData.features.map((feature, featureIndex) => (
+                  {serviceData.features.map((feature: string, featureIndex: number) => (
                     <li key={featureIndex} className="flex items-start">
                       <Check className={`w-5 h-5 ${service.textColor} mt-0.5 mr-3 flex-shrink-0`} />
                       <span className="text-gray-700">{feature}</span>
