@@ -1,0 +1,144 @@
+{
+  "hero": {
+    "title": "Empower Your Digital Business",
+    "subtitle": "Exclusive program for visionary female entrepreneurs",
+    "description": "Transform your entrepreneurship with digital marketing and web development strategies designed specifically for female leaders.",
+    "cta": "Book Your Free Mentorship",
+    "urgency": "Limited spots - Only for female entrepreneurs",
+    "stats": {
+      "clients": "500+ Female Entrepreneurs",
+      "success": "95% Success Rate",
+      "growth": "300% Growth"
+    }
+  },
+  "services": {
+    "title": "Specialized Services",
+    "subtitle": "Comprehensive solutions for digital female entrepreneurs",
+    "marketing": {
+      "title": "Digital Marketing",
+      "description": "Personalized strategies for social media and email marketing",
+      "features": [
+        "Social media management",
+        "Email marketing campaigns",
+        "Content for female entrepreneurs",
+        "Female audience analysis"
+      ]
+    },
+    "development": {
+      "title": "Web Development",
+      "description": "Websites and e-commerce optimized for your business",
+      "features": [
+        "Professional websites",
+        "Online stores",
+        "Responsive design",
+        "SEO optimization"
+      ]
+    },
+    "mentoring": {
+      "title": "VIP Mentorships",
+      "description": "Star program of personalized mentorships",
+      "features": [
+        "1-on-1 sessions",
+        "Digital product strategies",
+        "Personalized growth plan",
+        "Continuous support"
+      ],
+      "badge": "Most Popular"
+    }
+  },
+  "pricing": {
+    "title": "Plans for Female Entrepreneurs",
+    "subtitle": "Smart investment in your business future",
+    "starter": {
+      "name": "Entrepreneur",
+      "price": "299",
+      "period": "month",
+      "features": [
+        "2 social media management",
+        "2 email campaigns/month",
+        "Basic support",
+        "Monthly reports"
+      ]
+    },
+    "professional": {
+      "name": "Digital Leader",
+      "price": "599",
+      "period": "month",
+      "features": [
+        "4 social media management",
+        "Unlimited email marketing",
+        "Professional website",
+        "Priority support"
+      ],
+      "popular": true
+    },
+    "enterprise": {
+      "name": "Visionary",
+      "price": "999",
+      "period": "month",
+      "features": [
+        "Everything above",
+        "Complete e-commerce",
+        "Monthly mentorships",
+        "Personalized strategy"
+      ]
+    },
+    "cta": "Get Started Now"
+  },
+  "testimonials": {
+    "title": "Success Stories",
+    "subtitle": "Female entrepreneurs who transformed their businesses",
+    "items": [
+      {
+        "name": "Maria González",
+        "role": "Founder of Natural Beauty",
+        "content": "CuaimasPower helped me grow my natural cosmetics business by 400% in just 6 months. Their focus on empowering women is unique.",
+        "rating": 5
+      },
+      {
+        "name": "Carmen Rodríguez",
+        "role": "CEO of TechFem",
+        "content": "The mentorships gave me the tools to launch my tech startup. Now I lead a team of 15 female developers.",
+        "rating": 5
+      },
+      {
+        "name": "Ana Silva",
+        "role": "Digital Marketing Director",
+        "content": "From my sustainable fashion e-commerce to my marketing agency, CuaimasPower has been key in every step of my growth.",
+        "rating": 5
+      }
+    ]
+  },
+  "contact": {
+    "title": "Start Your Transformation",
+    "subtitle": "Book your free consultation and discover how we can boost your business",
+    "form": {
+      "name": "Full name",
+      "email": "Email",
+      "phone": "Phone",
+      "business": "Business type",
+      "message": "Tell us about your project",
+      "submit": "Book Free Consultation"
+    },
+    "info": {
+      "title": "Ready for the next level?",
+      "description": "Our team of specialists is ready to help you achieve your business goals.",
+      "response": "Response within 24 hours",
+      "consultation": "Free 30-minute consultation",
+      "strategy": "Personalized strategic plan"
+    }
+  },
+  "footer": {
+    "company": "CuaimasPower - Empowering Female Entrepreneurs",
+    "rights": "All rights reserved",
+    "privacy": "Privacy Policy",
+    "terms": "Terms and Conditions"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "pricing": "Pricing",
+    "testimonials": "Testimonials",
+    "contact": "Contact"
+  }
+}
