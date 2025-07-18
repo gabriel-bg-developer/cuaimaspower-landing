@@ -153,7 +153,7 @@ npm run lint
 
 ---
 
-**Creado por**: Claude Code  
+**Creado por**: Gabriel Quiroz  
 **Fecha**: 2025-01-18  
 **Versión**: Next.js 15.4.1  
 **Estado**: ✅ COMPLETADO - Landing page totalmente funcional  
